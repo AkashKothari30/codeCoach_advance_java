@@ -11,10 +11,10 @@ public class UserInfo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
+        System.out.print("Enter your naam: ");
         String name = sc.nextLine();
 
-        System.out.print("Enter your age: ");
+        System.out.print("Enter your umer: ");
         int age = sc.nextInt();
 
         System.out.println("\nHello, " + name + "!");
